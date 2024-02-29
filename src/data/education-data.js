@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
-        course: 'Bachelor Degree',
+        institution: 'National Institute of Technology Jalandhar',
+        course: ' Bachelor of Technology',
         startYear: '2020',
-        endYear: 'Present'
+        endYear: '2024'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
-        course: 'Higher Secondary',
+        institution: 'Delhi Public School Ghaziabad Vsundhara',
+        course: 'High School',
         startYear: '2018',
         endYear: '2020'
     },
-    {
-        id: 3,
-        institution: 'Baitus Saif Islamia Madrasah',
-        course: 'Secondary School',
-        startYear: '2008',
-        endYear: '2018'
-    },
+    // {
+    //     id: 3,
+    //     institution: 'Delhi Public School Ghaziabad Vsundhara',
+    //     course: 'Middle School',
+    //     startYear: '2006',
+    //     endYear: '2018'
+    // },
 ]

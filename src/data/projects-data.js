@@ -11,39 +11,39 @@ import two from '../assets/svg/projects/two.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
+        projectName: 'The White Rabbit',
+        projectDesc: 'We are a team of creative enthusiasts determined to build your online presence. We believe in curating plans and strategies that are  best suited for growing your brand. Our core team and empanelled professionals include writers, strategists, designers, researchers, techies both freshers and industry experts.',
+        tags: ['NextS', 'Tailwind', 'React Bootstrap'],
+        code: 'https://github.com/mihir010/TheWhiteRabbit',
+        demo: 'https://www.thewhiterabbit.in/',
         image: six
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        projectName: 'Siri Engineering Systems',
+        projectDesc: 'Siri Engineering Systems Pvt Ltd is an engineering company registered in Hyderabad in 2013 as per Indian Company’s act and engaged in “system integration and engineering services” for captive & co-generation power plants.',
+        tags: ['NextJS', 'Tailwind', 'Appwrite'],
+        code: 'https://github.com/mihir010/siriengineering',
+        demo: 'https://siriengineering.vercel.app/',
         image: seven
     },
     {
         id: 3,
+        projectName: 'CronTasker',
+        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+        tags: ['NodeJS', 'ExpressJS', 'Cron Task', 'Twilio'],
+        code: 'https://github.com/mihir010/CronTasker',
+        demo: 'https://drive.google.com/file/d/1m6sWUV_4uFnQeTXwHib3lE1uPl-4cq8c/view',
+        image: four
+    },
+    {
+        id: 4,
         projectName: 'Travel Agency',
         projectDesc: 'This project about travel agency management.',
         tags: ['React', 'CSS', 'Material Ui'],
         code: 'https://github.com/said7388/Travel-Agency-client',
         demo: 'https://travel-agency-fc58b.web.app/',
         image: eight
-    },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
     },
     {
         id: 5,

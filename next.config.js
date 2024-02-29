@@ -7,6 +7,7 @@ const nextConfig = {
   images: {
     domains: [
       'i.ibb.co',
+      'res.cloudinary.com'
     ],
   },
 
