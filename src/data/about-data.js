@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
     description1: "My name is Mihir Kumar. I'm a developer based in Delhi, India",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. I Love almost all the stacks of Software Engineering. My current stack includes Nodejs, React, NextJs, Golang, Django, Redux, Tailwind, Bootstrap, Material UI, MongoDB, Mysql, PostgreSQL etc.",
+    description2: "I'm a professional programmer with a strong passion for learning. I thrive on exploring new technologies and solving challenging problems. I enjoy working with various software engineering stacks, including Node.js, React, Next.js, Golang, Django, Redux, Tailwind CSS, Bootstrap, Material UI, MongoDB, MySQL, and PostgreSQL.",
     image: 1
 }
