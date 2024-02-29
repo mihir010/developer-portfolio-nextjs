@@ -138,7 +138,7 @@ function Navbar() {
                             </div>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <Link
                                 href='/#blog'
                             >
@@ -151,7 +151,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </Link>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <Link
