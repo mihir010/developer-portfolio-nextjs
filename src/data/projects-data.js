@@ -30,7 +30,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'CronTasker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
+        projectDesc: 'The project incorporates an intelligent priority mechanism, dynamically adjusting task priorities based on due dates. Leveraging Twilio, the application integrates voice notifications to deliver timely task reminders. Users receive automated voice calls for overdue tasks.',
         tags: ['NodeJS', 'ExpressJS', 'Cron Task', 'Twilio'],
         code: 'https://github.com/mihir010/CronTasker',
         demo: 'https://drive.google.com/file/d/1m6sWUV_4uFnQeTXwHib3lE1uPl-4cq8c/view',
