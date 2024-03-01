@@ -72,6 +72,11 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
+import expressjs from '../assets/svg/skills/express.svg'
+import drf from '../assets/svg/skills/drf.svg'
+import redux from '../assets/svg/skills/redux.svg'
+import prisma from '../assets/svg/skills/prisma.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
 
@@ -227,6 +232,28 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'python':
+            return python;
+        case 'Django':
+            return django;
+        case 'PostgreSQL':
+            return postgresql;
+        case 'cpp':
+            return cplusplus;
+        case 'C':
+            return c;
+        case 'SQLite':
+            return sqlite;
+        case 'node js':
+            return nodejs;
+        case 'express js':
+            return expressjs;
+        case 'django rest framework':
+            return drf;
+        case 'redux':
+            return redux;
+        case 'prisma':
+            return prisma;
         default:
             break;
     }

@@ -28,7 +28,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             href={demo}
                             target='_blank'
                             rel='noreferrer'
-                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 border-[#EFF3F4] hover:border-[#15202B] text-[#EFF3F4] hover:text-[#1D9BF0] transition hover:scale-[1.1]"
+                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 hover:border-[#15202B] border-[#1D9BF0] text-[#1D9BF0] hover:text-[#1D9BF0] transition hover:scale-[1.1]"
                             aria-labelledby={`${name
                                 .replace(' ', '-')
                                 .toLowerCase()} ${name
@@ -47,7 +47,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             href={code}
                             target='_blank'
                             rel='noreferrer'
-                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2 border-[#EFF3F4] hover:border-[#15202B] text-[#EFF3F4] hover:text-[#1D9BF0] transition hover:scale-[1.1]"
+                            className="flex items-center justify-center w-[40px] h-[40px] rounded-[50px] border-2  border-[#1D9BF0] hover:border-[#15202B] text-[#1D9BF0] hover:text-[#1D9BF0] transition hover:scale-[1.1]"
                             aria-labelledby={`${name
                                 .replace(' ', '-')
                                 .toLowerCase()} ${name

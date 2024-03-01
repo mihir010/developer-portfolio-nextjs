@@ -15,6 +15,7 @@ import { ThemeContext } from '../../contexts/theme-context';
 import { contactsData } from '../../data/contacts-data';
 import { socialsData } from '../../data/socials-data';
 import styles from '../../styles/contacts.module.css';
+// import dotenv from 'dotenv';
 
 function Contacts() {
     const [open, setOpen] = useState(false);
@@ -35,15 +36,16 @@ function Contacts() {
 
     const handleContactForm = (e) => {
         e.preventDefault();
+        console.log("hello")
 
         if (name && email && message) {
             if (isEmail(email)) {
                 emailjs.sendForm(
-                    process.env.REACT_APP_YOUR_SERVICE_ID,
-                    process.env.REACT_APP_YOUR_TEMPLATE_ID,
-                    form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
+                    'service_i9tq2n8',
+                    'template_wu7qoeg',
+                    form.current, 'wPHnZeVIM5PXQO2Pg')
                     .then((result) => {
-                        console.log('success');
+                        // alert('success');
                         setSuccess(true);
                         setErrMsg('');
                         setName('');
@@ -67,7 +69,7 @@ function Contacts() {
         <div
             className={styles.contacts}
             id='contacts'
-            style={{ backgroundColor: theme.secondary }}
+            style={{ backgroundColor: theme.quaternary }}
         >
             <div className={styles.contactsContainer}>
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
@@ -75,26 +77,26 @@ function Contacts() {
                     <div className={styles.contactsForm}>
                         <form ref={form} onSubmit={handleContactForm}>
                             <div className={styles.inputContainer}>
-                                <label htmlFor='Name'
+                                {/* <label htmlFor='Name'
                                     className="bg-[#15202B] text-[#EFF3F4] 
                                 font-semibold text-[0.9rem] py-0 px-[5px] 
                                 inline-flex translate-x-[25px] translate-y-[50%]">
                                     Name
-                                </label>
+                                </label> */}
                                 <input
                                     placeholder='Your name'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
-                                    name='user_name'
+                                    name='from_name'
                                     className={`${styles.formInput}  
-                                    border-2 border-[#8B98A5] bg-[#15202B]
-                                     text-[#EFF3F4] font-medium transition 
+                                    border-2 border-[#8B98A5] bg-[${theme.inputBg}]
+                                    text-[${theme.inputText}] font-medium transition 
                                      focus:border-[#1D9BF0]`}
                                 />
                             </div>
                             <div className={styles.inputContainer}>
-                                <label
+                                {/* <label
                                     htmlFor='Email'
                                     className="bg-[#15202B] text-[#EFF3F4] 
                                     font-semibold text-[0.9rem] px-[5px] 
@@ -102,21 +104,21 @@ function Contacts() {
                                     translate-y-[50%]"
                                 >
                                     Email
-                                </label>
+                                </label> */}
                                 <input
                                     placeholder='Your email'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
-                                    name='user_email'
+                                    name='from_email'
                                     className={`${styles.formInput}  
-                                    border-2 border-[#8B98A5] bg-[#15202B]
-                                     text-[#EFF3F4] font-medium transition
+                                    border-2 border-[#8B98A5] bg-[${theme.inputBg}]
+                                    text-[${theme.inputText}] font-medium transition
                                       focus:border-[#1D9BF0]`}
                                 />
                             </div>
                             <div className={styles.inputContainer}>
-                                <label
+                                {/* <label
                                     htmlFor='Message'
                                     className="bg-[#15202B] text-[#EFF3F4]
                                      font-semibold text-[0.9rem] px-[5px] 
@@ -124,7 +126,7 @@ function Contacts() {
                                      translate-y-[50%]"
                                 >
                                     Message
-                                </label>
+                                </label> */}
                                 <textarea
                                     placeholder='Type your message....'
                                     value={message}
@@ -133,8 +135,8 @@ function Contacts() {
                                     name='message'
                                     className={`${styles.formMessage} 
                                     border-2 border-[#8B98A5] 
-                                    focus:border-[#1D9BF0] bg-[#15202B]
-                                     text-[#EFF3F4] font-medium transition`}
+                                    focus:border-[#1D9BF0] bg-[${theme.inputBg}]
+                                     text-[${theme.inputText}] font-medium transition`}
                                 />
                             </div>
 
@@ -152,8 +154,8 @@ function Contacts() {
                                                 animation: !success
                                                     ? 'initial'
                                                     : 'fly 0.8s linear both',
-                                                position: success
-                                                    ? 'absolute'
+                                                display: success
+                                                    ? 'none'
                                                     : 'initial',
                                             }}
                                         />
@@ -193,7 +195,7 @@ function Contacts() {
                                     </React.Fragment>
                                 }
                                 style={{
-                                    backgroundColor: theme.primary,
+                                    backgroundColor: theme.secondary,
                                     color: theme.secondary,
                                     fontFamily: 'var(--primaryFont)',
                                 }}

@@ -12,12 +12,12 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
 
     return (
         <Fade bottom>
-            <div key={id} className={`${styles.educationCard} bg-[#1E2732]`} >
+            <div key={id} className={`${styles.educationCard} bg-[${theme.cardBg}]`} >
                 <div className={styles.educardImg} style={{ backgroundColor: theme.primary }}>
                     <Image src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
                 </div>
                 <div className={styles.educationDetails}>
-                    <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
+                    <h6 style={{ color: theme.cardText1 }}>{startYear}-{endYear}</h6>
                     <h4 style={{ color: theme.tertiary }}>{course}</h4>
                     <h5 style={{ color: theme.tertiary }}>{institution}</h5>
                 </div>

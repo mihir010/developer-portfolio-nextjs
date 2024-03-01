@@ -138,11 +138,11 @@ function Landing() {
                                 href='/#contacts'
                             >
                                 <button className="sm:w-[180px] bg-[#1D9BF0] 
-                                text-[#15202B] rounded-[30px] no-underline	
+                                text-[#ffffff] rounded-[30px] no-underline	
                                 w-36 text-base font-medium h-12 border-[3px]
                                  border-[#1D9BF0] transition duration-100 
-                                 ease-out hover:bg-[#8B98A5] hover:text-[#15202B]
-                                  hover:border-[#8B98A5] hidden sm:block "
+                                 ease-out hover:bg-[#ffffff] hover:text-[#1D9BF0]
+                                  hover:border-[#1D9BF0] hidden sm:block "
                                 >
                                     Contact
                                 </button>
