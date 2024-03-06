@@ -1,6 +1,6 @@
 export const contactsData = {
     email: 'mihirk3001@gmail.com',
-    phone: '+91 999038084',
+    phone: '+91 9999038084',
     address: 'Delhi, India',
     github: 'https://github.com/mihir010',
     facebook: 'https://www.facebook.com/mihir.kumar.35762/',
